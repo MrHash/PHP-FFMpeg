@@ -16,11 +16,17 @@
         "homepage": "http://www.phraseanet.com/"
     }
     ],
+    "repositories":[
+    {
+        "type":"vcs",
+        "url":"http://github.com/MrHash/BinaryDriver"
+    }
+    ],
     "require": {
         "php"                          : ">=5.3.3",
-        "alchemy/binary-driver"        : "~1.5",
+        "alchemy/binary-driver"        : "dev-master",
+        "evenement/evenement"          : "~2.0",
         "doctrine/cache"               : "~1.0",
-        "evenement/evenement"          : "~1.0",
         "neutron/temporary-filesystem" : "~2.1, >=2.1.1"
     },
     "suggest": {
